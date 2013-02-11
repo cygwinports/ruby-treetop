@@ -1,0 +1,8 @@
+inherit rubygem
+
+NAME="ruby-treetop"
+VERSION=1.4.12
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby text parsing extension"
+DESCRIPTION="A Ruby-based text parsing and interpretation DSL"
