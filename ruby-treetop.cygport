@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-treetop"
-VERSION=1.4.12
+VERSION=1.4.14
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby text parsing extension"
