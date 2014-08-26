@@ -1,0 +1,14 @@
+ERROR:  While executing gem ... (Gem::InvalidSpecificationException)
+	duplicate dependency on polyglot (>= 0.3.1), (>= 0) use:
+	add_runtime_dependency 'polyglot', '>= 0.3.1', '>= 0'
+
+--- origsrc/treetop-1.4.15/treetop.gemspec	2014-08-26 00:58:41.419468700 -0500
++++ src/treetop-1.4.15/treetop.gemspec	2014-08-26 01:00:09.971713400 -0500
+@@ -23,7 +23,6 @@ Gem::Specification.new do |s|
+     s.specification_version = 3
+ 
+     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
+-      s.add_runtime_dependency(%q<polyglot>, [">= 0"])
+       s.add_development_dependency(%q<jeweler>, [">= 0"])
+       s.add_development_dependency(%q<activesupport>, [">= 0"])
+       s.add_development_dependency(%q<i18n>, ["~> 0.5.0"])

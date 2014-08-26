@@ -1,8 +1,16 @@
 inherit rubygem
 
 NAME="ruby-treetop"
-VERSION=1.4.14
+VERSION=1.4.15
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby text parsing extension"
 DESCRIPTION="A Ruby-based text parsing and interpretation DSL"
+
+PATCH_URI="1.4.15-rubygems24.patch"
+
+ARCH=noarch
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_treetop_CONTENTS="usr/bin/tt ${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_treetop_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
