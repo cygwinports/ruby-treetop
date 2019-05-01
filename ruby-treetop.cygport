@@ -1,13 +1,11 @@
 inherit rubygem
 
 NAME="ruby-treetop"
-VERSION=1.4.15
+VERSION=1.6.10
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby text parsing extension"
 DESCRIPTION="A Ruby-based text parsing and interpretation DSL"
-
-PATCH_URI="1.4.15-rubygems24.patch"
 
 ARCH=noarch
 
